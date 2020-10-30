@@ -1,20 +1,23 @@
 import './App.css';
 
-import Card from './components/Card';
+import Average from './components/Average';
+import Sum from './components/Sum';
+import Draw from './components/Draw';
+import Interval from './components/Interval';
 
 function App() {
   return (
     <div className="App">
-      <h1>Exercício React-Redux</h1>
+      <h1>Exercício React-Redux(Simples)</h1>
 
       <div className="linha">
-        <Card title="Card 1" red>X</Card>
-        <Card title="Card 2" green>X</Card>
+        <Interval />
       </div>
 
       <div className="linha">
-        <Card title="Card 3" blue>Y</Card>
-        <Card title="Card 4" purple>Y</Card>
+        <Average />
+        <Sum />
+        <Draw />
       </div>
     </div>
   );
