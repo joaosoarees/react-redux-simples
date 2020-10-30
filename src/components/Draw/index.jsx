@@ -5,7 +5,7 @@ import Card from '../Card';
 
 const Draw = (props) => {
   const { min, max } = props;
-  const draw = parseInt(Math.random() * (min + max)) + min;
+  const draw = parseInt(Math.random() * (max - min)) + min;
 
   return (
     <Card title="Sorteio de Número" purple>

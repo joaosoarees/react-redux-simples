@@ -5,7 +5,6 @@ import Card from '../Card';
 
 const Sum = (props) => {
   const { min, max } = props;
-  console.log(props)
 
   return (
     <Card title="Soma de Números" blue>
